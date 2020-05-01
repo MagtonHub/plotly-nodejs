@@ -16,12 +16,12 @@ function Plotly(username,apiKey) {
         opts = username;
         this.username = opts.username;
         this.apiKey = opts.apiKey;
-        this.host = opts.host || 'plot.ly';
+        this.host = opts.host || 'plotly.com';
         this.port = opts.port || 443;
     } else {
         this.username = username;
         this.apiKey = apiKey;
-        this.host = 'plot.ly';
+        this.host = 'plotly.com';
         this.port = 443;
     }
         this.streamHost = '';
