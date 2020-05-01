@@ -25,6 +25,6 @@
   "author": "Alexander Daniel <alex@lesinstruments.com> (http://lesinstruments.com/)",
   "license": "MIT",
   "dependencies": {
-    "mkdirp": "~0.5.0"
+    "mkdirp": "1.0.4"
   }
 }
